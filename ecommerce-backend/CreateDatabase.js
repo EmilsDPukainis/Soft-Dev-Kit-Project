@@ -2,7 +2,7 @@
 
 const sqlite3 = require('sqlite3').verbose();
 
-const db = new sqlite3.Database('mydatabase.db');
+const db = new sqlite3.Database('ecommerce-backend/mydatabase.db');
 
 db.serialize(() => {
   
